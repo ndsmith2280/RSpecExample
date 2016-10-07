@@ -3,7 +3,7 @@ class Movie < ActiveRecord::Base
     %w(G PG PG-13 NC-17 R)
   end
   
- # class Movie::InvalidKeyError < StandardError ; end
+# class Movie::InvalidKeyError < StandardError ; end
   
 #  def self.find_in_tmdb(string)
 #    begin
